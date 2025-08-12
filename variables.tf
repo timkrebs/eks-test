@@ -7,8 +7,3 @@ variable "region" {
   default     = "us-east-2"
 }
 
-variable "vault_tier" {
-  description = "Vault tier"
-  type        = string
-  default     = "standard"
-}
